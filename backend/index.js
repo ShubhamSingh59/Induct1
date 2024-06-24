@@ -175,7 +175,7 @@ app.post('/api/send-email', upload.single('attachment'),async (req, res) => {
     }
     //const filePath = 'C:\\Users\\SHUBHAM\\OneDrive\\Desktop\\InDuckt\\kriti\\admin\\assets\\images\\blogs\\blog1.png'
     const mailOptions = {
-        from: 'ssingh995019@gmail.com',
+        from: 'mail',
         to: recipient,
         subject: subject,
         html: html,
